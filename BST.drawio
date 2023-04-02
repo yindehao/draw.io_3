@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-02T08:16:16.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="5tD67ViFK_2OPJPSYY_D" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-02T09:26:00.367Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.54" etag="8BI1rlHoBsIUegT3uKk1" version="21.1.2" type="github">
   <diagram name="第 1 页" id="eqJBXIoPJYPe7645W5c3">
-    <mxGraphModel dx="1432" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UIu04glMRaDpkLtgAogd-3" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="280" y="180" width="95" height="50" as="geometry" />
+          <mxGeometry x="280" y="180" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UIu04glMRaDpkLtgAogd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.604;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UIu04glMRaDpkLtgAogd-4" target="UIu04glMRaDpkLtgAogd-5">
           <mxGeometry relative="1" as="geometry" />
@@ -69,6 +69,42 @@
         </mxCell>
         <mxCell id="UIu04glMRaDpkLtgAogd-19" value="return false" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="70" y="620" width="85" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UIu04glMRaDpkLtgAogd-28" target="UIu04glMRaDpkLtgAogd-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-28" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1280" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-29" value="二叉搜索树的插入操作&lt;br&gt;insert(root,key)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1220" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-30" value="// 找到待插入节点的位置&lt;br&gt;x = root, y = null" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="263.75" y="1380" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-31" value="x!= nullptr" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-32" value="y = x" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="1560" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-33" value="key &amp;lt; x-&amp;gt;val" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1670" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-34" value="x = x-&amp;gt;left" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1790" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-36" value="x = x-&amp;gt;right" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1790" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-37" value="z = new TreeNode(key)&lt;br&gt;z-&amp;gt;p = y" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1950" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-38" value="y == nullptr" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2110" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UIu04glMRaDpkLtgAogd-39" value="key &amp;lt; y-&amp;gt;val" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2260" width="100" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
