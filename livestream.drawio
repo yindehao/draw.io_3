@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T08:53:09.941Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="CRXHYCyOLb035JAhFHXf" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T08:53:48.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="MiKCiBzQnJLTRrHUrHIg" version="21.5.0" type="github">
   <diagram name="第 1 页" id="51pCegGZdoGortER6jtI">
     <mxGraphModel dx="1186" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,6 +70,12 @@
         </mxCell>
         <mxCell id="gCwJBp5oOpp24oI3YssN-30" value="文件格式转换，索引文件-&amp;gt;.ts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="595" y="802.5" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-31" value="推流RTMP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="434" y="833" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-32" value="拉流HLS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="870" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
