@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T08:53:48.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="MiKCiBzQnJLTRrHUrHIg" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T02:52:02.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="bEFhnWLGUJEBgiA5vz-a" version="21.5.0" type="github">
   <diagram name="第 1 页" id="51pCegGZdoGortER6jtI">
     <mxGraphModel dx="1186" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gCwJBp5oOpp24oI3YssN-50" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1650" width="850" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1450" width="850" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="gCwJBp5oOpp24oI3YssN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gCwJBp5oOpp24oI3YssN-5" target="gCwJBp5oOpp24oI3YssN-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -76,6 +82,51 @@
         </mxCell>
         <mxCell id="gCwJBp5oOpp24oI3YssN-32" value="拉流HLS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gCwJBp5oOpp24oI3YssN-34" target="gCwJBp5oOpp24oI3YssN-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-34" value="采集端（老师）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1440" width="130" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gCwJBp5oOpp24oI3YssN-35" target="gCwJBp5oOpp24oI3YssN-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-35" value="流媒体服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1440" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-36" value="播放端（学生）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1440" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-37" value="1. 音视频采集&lt;br&gt;2. 视频处理&lt;br&gt;3. 音视频编码压缩&lt;br&gt;4. 音视频封装" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1460" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-38" value="1. 数据分发&lt;br&gt;2. 录制视频&lt;br&gt;3. 实时转码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="723" y="1460" width="94" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-39" value="1. 从ts文件中分离音视频数据&lt;br&gt;2. 音视频解码&lt;br&gt;3. 播放" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="970" y="1460" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-41" value="处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="1495" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-44" value="推流（RTMP）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1570" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-46" value="拉流（HLS）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1570" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-47" value="FFmpeg：音视频编解码、流媒体传输&lt;br&gt;libremp：推流&lt;br&gt;dshow: 音视频捕获&lt;br&gt;gdigrab: 捕获桌面" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1660" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-48" value="Nginx" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-49" value="hlv.js：直接播放hls视频流" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gCwJBp5oOpp24oI3YssN-51" value="组件" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="1685" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
